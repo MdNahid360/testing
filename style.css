@@ -13,6 +13,7 @@
 }
 
 .my-slider{
+    border-radius: 11px;
     background:#fceae8;
 }
 
@@ -24,4 +25,12 @@
 .buy:hover{
     color: rgb(0, 0, 0);
     background: rgb(0, 255, 234)!important;
+}
+
+/* **************** short items ************** */
+.my-background{
+    color: #fff;
+    background-image:linear-gradient(30deg,rgb(255, 94, 0),rgb(255, 230, 0))!important;
+    border-radius: 8px;
+    box-shadow: 0px 3px 8px 0px gray;
 }

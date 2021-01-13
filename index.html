@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header class="container">
+    <header class="container w-75">
         <nav class="navbar navbar-expand-lg navbar-light ">
             <div class="container">
               <a class="navbar-brand" href="#">
@@ -43,23 +43,25 @@
           </nav>
 
           <!-- -----------  header carousel ------ -->
-          <section class="my-slider container mt-3 p-5">
+          <section class="my-slider container mt-5">
                     <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active p-2">
         <div class="row g-3">
-            <div class="col-lg-7 col-md-7 col-12">  
+            <div class="col-lg-7 col-md-7 col-12 p-5 d-flex justify-content-center align-items-center">  
+                 <div class="titleBox">
                     <h1>
                         Mega LCD TV For Sports
                     </h1>
                     <p>
                         This is the best tv in the world for people who just want to waste time in front of tv.
                     </p>
-                    <h3 class="text-danger price">$344</h3>
+                    <h3 clas="text-danger price">$344</h3>
 
                     <a href="#" class="btn buy px-3  py-2">
                        <i class="fa fa-shopping-cart" aria-hidden="true"></i> Buy Now
                     </a>
+                 </div>
             </div>
             <div class="col-lg-5 col-md-5 col-12">
                 <img src="img/banner-images/tv.png" class="d-block w-100" alt="...">
@@ -81,8 +83,38 @@
 
 
 </section>
-
-          
+     <!-- ---------- 3 col items -------------- -->
+          <div class="box-A mt-5">
+            <div class="overflow-hidden">
+                <div class="row p-2 text-center justify-content-center g-5">
+                  <div class="col-lg-4 col-md-6 col-12">
+                   <div class="my-background d-flex p-3 justify-content-evenly align-items-center">
+                        <h1 class="text-capitalize">
+                            watch
+                        </h1>
+                        <img src="img/categories/watch.png" alt="watch" class="img-fluid w-25">
+                   </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                   <div class="my-background2 d-flex p-3 justify-content-evenly align-items-center">
+                        <h1 class="text-capitalize">
+                            Bag
+                        </h1>
+                        <img src="img/categories/bag.png" alt="watch" class="img-fluid w-25">
+                   </div>
+                  </div>
+                  <div class="col-lg-4 col-md-6 col-12">
+                   <div class="my-background3 d-flex p-3 justify-content-evenly align-items-center">
+                        <h1 class="text-capitalize">
+                            shoes
+                        </h1>
+                        <img src="img/categories/shoes.png" alt="watch" class="img-fluid w-25">
+                   </div>
+                  </div>
+                  
+                </div>
+              </div>
+          </div>
     </header>
     <!-------------------- scripts ---------------------->
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
